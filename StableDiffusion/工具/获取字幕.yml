@@ -1,0 +1,9 @@
+获取字幕:
+ - 打开B站视频
+ - 打开F12
+ - 点击网络
+ - 刷新页面
+ - 过滤里写json
+ - https
+ - 打开网址 https://www.dreamlyn.cn/bsrt
+ - 在线字幕转换

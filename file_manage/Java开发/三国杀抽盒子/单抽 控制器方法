@@ -1,0 +1,6 @@
+@GetMapping("/card-drawing")
+public String cardDrawing(Model model) {
+    model.addAttribute("title", "抽卡");
+    model.addAttribute("message", "单抽");
+    return "card-drawing";
+}

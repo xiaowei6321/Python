@@ -1,0 +1,89 @@
+deploy on aliyun:
+  - fail because of not free time and it's difficult to access openai's api
+
+deploy on AWS:
+  - address
+  - https://ap-southeast-2.console.aws.amazon.com/ec2/home?region=ap-southeast-2#Home
+  - EC2:
+      - name:  myec2
+      - system: ubuntu
+      - secure key: hello
+      - security group: all
+      - start instance:
+          - use ec2 instance connect
+      - public ip: 3.104.63.19
+  - deploy flask app on an ubuntu machine:
+      - sudo apt update
+        sudo apt install python3 python3-pip
+
+      - Daemon #ch 魔鬼，恶魔（同 demon）；守护进程；后台程序；虚拟光驱软件
+
+        
+#        pip3 install virtualenv
+#        virtualenv venv
+#        Activate the virtual environment
+#        source venv/bin/activate
+        
+      - pip install Flask
+      - sudo apt install openjdk-11-jdk
+      - sudo apt install apt-transport-https wget
+      -
+
+      - pip install elasticsearch
+        
+      - Place your Flask application:
+          - pwd: print working directory
+          - create a new directory:
+              - mkdir my_flask_app
+              - cd my_flask_app
+          - create a file called app.py:
+              - nano app.py
+          - add the flask code
+          - run the program: python app.py
+      
+      - python app.py
+
+      - Enable and start the service:
+          - sudo systemctl enable my_flask_app.service
+            sudo systemctl start my_flask_app.service
+
+      - FireWall settings:
+          - sudo ufw allow 5000
+            sudo ufw reload
+
+      - Network settings:
+          - VPC
+          - subnets
+          - security groups
+          - network acls
+      - to configure a security group:
+          - sign in
+          - open the amazon ec2 console at:
+              - https://console.aws.amazon.com/ec2/
+          - In the left-hand navigation pane, click Security Groups under the "Network & Security" section.
+          - elect the security group associated with your EC2 instance. If you haven't created a custom security group, you can use the default security group associated with your VPC.
+          - Click the Inbound rules tab, then click Edit inbound rules.
+          - Click Add rule and fill in the following details:
+              - Caution:
+                  - don't modify the primitive rule that enables SSH access to your instance. If you do, you'll lose the ability to connect to your instance using SSH.
+                  - And it finally works after I add a new rule for TCP 5000
+              - Type: Custom TCP
+                Protocol: TCP
+                Port range: 5000
+                Source: Choose Anywhere for public access, or specify a specific IP address or range for restricted access.
+
+          - Click Save rules to apply the new inbound rule
+
+      - Cloud provider firewall settings:
+          - AWS: Security Group
+
+
+      - How to save my data:
+
+
+
+
+
+
+
+

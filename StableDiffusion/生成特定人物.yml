@@ -1,0 +1,34 @@
+生成特定人物:
+  - 生成随机人物:
+      - 使用模型: 深渊橘
+      - 填入提示:
+          - 简单提示
+          - 详细提示
+      - 使用插件
+      - 调整参数
+
+  - https://www.bilibili.com/video/BV19X4y1k7Yk/?spm_id_from=333.337.search-card.all.click&vd_source=9c2ec001f0611ac68de268209e5f4441
+  - 融合法[明星A:明星B:0.4]
+  - 顺序生成法[A|B|C]
+  - 逆向生成法: 正向提示和负向提示
+  - 意识流法
+  - 生成雪之下雪乃:
+      - https://civitai.com/models/10031/yukinoshita-yukino
+      - 查看图片信息 INPAINTING
+
+  - 生成由比滨结衣:
+      - 下载视频:
+          - https://www.bilibili.com/read/cv7604919
+          - 动漫花园:
+              - https://dmhy.org/
+              - 磁力链接 (Magnet Link) 是一种链接类型，广泛用于 BitTorrent（一种分布式文件分享协议）中。与常见的HTTP或FTP链接直接指向一个网络位置不同，磁力链接实际上是一种元信息，它包含了文件的哈希值或其他标识符，这些标识符可以在整个BitTorrent网络中用来找到该文件。
+              - 搜索文件
+              - 点击下载
+              - 跳转到utorrent
+          -
+
+      - 视频分帧:
+          - SegmentAnything:
+
+      - 提取人物
+      - lora训练

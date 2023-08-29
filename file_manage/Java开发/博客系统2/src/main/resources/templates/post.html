@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title th:text="${post.title}">文章标题</title>
+</head>
+<body>
+<header>
+  <h1 th:text="${post.title}">文章标题</h1>
+</header>
+<main>
+  <article>
+    <h2>文章内容</h2>
+    <p th:text="${post.content}">文章内容...</p>
+    <p>作者ID：<span th:text="${post.userId}"></span></p>
+    <p>发布日期：<span th:text="${post.timestamp}"></span></p>
+  </article>
+  <a href="/posts">返回文章列表</a>
+</main>
+</body>
+</html>

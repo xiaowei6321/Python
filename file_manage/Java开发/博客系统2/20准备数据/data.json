@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "userId": 1,
+      "username": "user1",
+      "password": "12345",
+      "avatar": "https://example.com/avatar1"
+    },
+    {
+      "userId": 2,
+      "username": "user2",
+      "password": "54321",
+      "avatar": "https://example.com/avatar2"
+    },
+    {
+      "userId": 3,
+      "username": "user3",
+      "password": "abcde",
+      "avatar": "https://example.com/avatar3"
+    }
+  ],
+  "posts": [
+    {
+      "postId": 1,
+      "title": "第一篇帖子",
+      "content": "这是帖子的内容",
+      "userId": 1,
+      "timestamp": "2023-07-13 09:00"
+    },
+    {
+      "postId": 2,
+      "title": "第二篇帖子",
+      "content": "这是另一篇帖子",
+      "userId": 2,
+      "timestamp": "2023-07-13 10:00"
+    },
+    {
+      "postId": 3,
+      "title": "猫娘的新鲜事",
+      "content": "今天发生了什么",
+      "userId": 3,
+      "timestamp": "2023-07-13 11:00"
+    }
+  ],
+  "likes": [
+    {
+      "likeId": 1,
+      "userId": 1,
+      "postId": 2
+    },
+    {
+      "likeId": 2,
+      "userId": 2,
+      "postId": 3
+    },
+    {
+      "likeId": 3,
+      "userId": 3,
+      "postId": 1
+    },
+    {
+      "likeId": 4,
+      "userId": 1,
+      "postId": 3
+    }
+  ],
+  "shares": [
+    {
+      "shareId": 1,
+      "userId": 1,
+      "postId": 2
+    },
+    {
+      "shareId": 2,
+      "userId": 2,
+      "postId": 3
+    },
+    {
+      "shareId": 3,
+      "userId": 3,
+      "postId": 1
+    }
+  ],
+  "comments": [
+    {
+      "commentId": 1,
+      "userId": 1,
+      "postId": 2,
+      "content": "这篇帖子很有趣！"
+    },
+    {
+      "commentId": 2,
+      "userId": 2,
+      "postId": 3,
+      "content": "加油，猫娘！"
+    },
+    {
+      "commentId": 3,
+      "userId": 3,
+      "postId": 1,
+      "content": "喜欢这个帖子！"
+    }
+  ]
+}
+

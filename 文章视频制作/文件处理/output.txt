@@ -1,0 +1,92 @@
+12345678910111-*JN ( ~Ji} M 0 :fBi:!)? 
+
+( 2)  ~ m 1 ~ flit -0- ( push  eb p ) B,j-, ~T IT itt:fl' 1ill:hl 1r :t!ic i¥J :ij ~ hI' W;).  ~ 
+1)] riiJ  I*J 1f. >P  i3"J]jJ:  §I * fQ  ]jJ: * , Ji1U  f:? ?t jjU 1jj "oj 't: 11'1  ~ I=l  8<J  ~ J1 
+( 3 )  M 8<J  II 0  -* m rp  ~ 3Y 1IilJ :1J :c~ 0  74' :itt *111  P  1£ ifoJ m fl  z flU Jill :ij 
+scanf ( ) ~ ~ n  8<J 'ffi , Ji1iJ :fE fA. 1"1'  scanf (  ) B':J:ij ~ >p  , :itt iflil  P  8<J  ~ 
+0~JHl1ifJ ~ 1t?  CPU  )fF~f:?l1t A I*J tJ< ~ '! 
+
+46.  (8 ?t) ~:itt;W >p If 3  l ' if J;t fA. h i3"J ~ ~ thread 1 ,thread2 fIl  thread3 , 
+
+Jt fJJ it {jIb :Q1l'T Err 7J' 0 
+
+I I  ~J& fjg ~t, jt] * ill. 5i' )(. 
+
+typedef  struct 
+
+I 
+
+float  a; 
+
+float  b; 
+
+I  cnum j 
+
+cnum  x,  y,  z;  II ~)<.j1f:lt 
+
+j  l it ;n ~ l' ~ 1& Z jf~ 
+
+cnum  add (  c num  p,  c num  q ) 
+
+I 
+
+I 
+
+cnum  s; 
+
+s .a = p.a+q.a; 
+
+s. b = p.b+q.b; 
+
+Teturn  s; 
+
+thread3 
+
+I 
+
+cnum  w; 
+
+\V.a = 1; 
+
+w.b=l; 
+
+z = add (  Z,  IV)  ; 
+
+y = add (  y,  w )  ; 
+
+• • • •  0 .  
+
+I 
+
+lh rea.d 1 
+
+I 
+
+I 
+
+cnu m  w; 
+
+w = add (  x,  y )  ; 
+
+.... . , 
+
+thread2 
+
+cnum  w; 
+
+w =add(  y,  z)  ; 
+
+.. .. 0. 
+
+I 
+
+I 
+
+'rt!fiJ~;bIl£'~E"J{fj~ hl fll  P, V ( jjjz  wait(  )  ,signal (  ») 'l*fF , ~ ;:j<:fif1i{~~ 
+~~ fM..Ii Jf: -Vi lilJ Ilffi JIlL 55£ 1m , ;If .fi:li )c ~ JJt 1& Jf: J;t :/,A 1"1'  0 
+47 .  (9 ?t ) "fI z:. JJ JJ ±'.g * m Fo ~ N ~~i rh-l)( ( G B N ) :J1 q=r t1' ~ B':J  XJ  rOJ  iJ& :Wi 
+1~~ , H xJ:1J ~i:! ~~ * J'IH~ #HJffrb\ , ~Ji if:!f;J j;)  1000  B 0  Sx, y  fO  Rx, y 
+?t jj Ij ~ Ij, "fin' fO G :1J J;t * B':J iJ& ii ~Ji , ;}t ~p : x  fi!: J;t :t& ff ~ ; Y  Jf: IiftJ iA 
+ff ~ *- / J\  ;ffi- ~ 1~ t& X1 H B':J 'T - ~Ji F¥ % ) d& tJHyi(1':l J;t ~ rf- 9- fll1i~ 
+
+1213

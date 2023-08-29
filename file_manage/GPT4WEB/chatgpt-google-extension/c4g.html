@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<p>你好</p>
+<script>
+// const resp = await fetch('https://chat.openai.com/api/auth/session') 转换成jquery
+$.ajax({
+    // url: 'https://chat.openai.com/api/auth/session',
+    url:'https://localhost:5500/proxy',
+    type: 'GET',
+    dataType: 'json',
+    success: function (data) {
+        console.log(data);
+    }
+});
+
+
+</script>
+</body>
+</html>

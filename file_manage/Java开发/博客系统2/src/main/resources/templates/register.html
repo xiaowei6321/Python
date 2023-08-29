@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"><meta charset="utf-8">
+<head>
+  <title>用户注册</title>
+  <style>
+    /* 样式可以根据需要进行自定义 */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>用户注册</h1>
+    <form th:action="@{/register}" method="post">
+      <div class="form-group">
+        <label for="username">用户名</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">密码</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+<!--      <div class="form-group">-->
+<!--        <label for="confirm-password">确认密码</label>-->
+<!--        <input type="password" id="confirm-password" name="confirm-password" >-->
+<!--      </div>-->
+<!--      <div class="form-group">-->
+<!--        <label for="email">邮箱</label>-->
+<!--        <input type="email" id="email" name="email" >-->
+<!--      </div>-->
+      <button class="button" type="submit">注册</button>
+      <p th:if="${error}" th:text="${error}"></p>
+    </form>
+  </div>
+</body>
+</html>

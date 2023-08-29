@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<!--charset-->
+<meta charset="utf-8">
+<head>
+  <title>管理后台</title>
+  <style>
+    /* 样式可以根据需要进行自定义 */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .statistics {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background-color: #f2f2f2;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .article-list {
+      margin-bottom: 20px;
+    }
+    .comment-list {
+      margin-bottom: 20px;
+    }
+    .button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>管理后台</h1>
+      <a href="logout.php">退出登录</a>
+    </div>
+
+    <div class="statistics">
+      <div>
+        <h3>博客访问量</h3>
+        <p>1000</p>
+      </div>
+      <div>
+        <h3>用户活跃度</h3>
+        <p>80%</p>
+      </div>
+    </div>
+
+    <div class="article-list">
+      <h2>博客文章管理</h2>
+      <ul>
+        <li>
+          <span>文章标题 1</span>
+          <a href="edit-article.php?id=1">编辑</a>
+          <a href="delete-article.php?id=1">删除</a>
+        </li>
+        <li>
+          <span>文章标题 2</span>
+          <a href="edit-article.php?id=2">编辑</a>
+          <a href="delete-article.php?id=2">删除</a>
+        </li>
+        <!-- 更多文章... -->
+      </ul>
+      <a class="button" href="create-article.php">创建文章</a>
+    </div>
+
+    <div class="comment-list">
+      <h2>用户评论管理</h2>
+      <ul>
+        <li>
+          <span>用户名 1：</span>
+          <p>评论内容 1</p>
+          <a href="approve-comment.php?id=1">审核</a>
+          <a href="delete-comment.php?id=1">删除</a>
+        </li>
+        <li>
+          <span>用户名 2：</span>
+          <p>评论内容 2</p>
+          <a href="approve-comment.php?id=2">审核</a>
+          <a href="delete-comment.php?id=2">删除</a>
+        </li>
+        <!-- 更多评论... -->
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,131 @@
+入门:
+  查看b站:
+    - 获取B站视频: https://xbeibeix.com/api/bilibili/
+    - 获取B站字幕:
+    # 许多视频，入门，进阶，应用，不同插件，
+    - 许多入门视频:
+        - 安装
+        - 提示词
+        - 秋叶的有模型管理，但笔记难安装，魔法书安装简单
+    - 生成相同的角色:
+        - https://www.bilibili.com/video/BV1sd4y1Z7cz/?spm_id_from=333.337.search-card.all.click&vd_source=9c2ec001f0611ac68de268209e5f4441
+        - shuffle
+        - reference-only
+        - 控制网处理器
+    - 商业级换装:
+        - https://www.bilibili.com/video/BV1fs4y1M7yt/?spm_id_from=333.337.search-card.all.click&vd_source=9c2ec001f0611ac68de268209e5f4441
+        # 怎么提取字幕，总结视频 记事本
+        - 关键词: stable diffusion 换装
+        - 蒙版
+        - 预处理器: canny, openpose
+        - 真人模型
+        - 重绘幅度: 大于0.75
+        - 重绘
+        - 手调
+        - 抠图
+        - 3d openpose
+    - DragGAN:
+        # 超强 做动图很强
+        - https://vcai.mpi-inf.mpg.de/projects/DragGAN/
+        -
+    - stable diffusion大模型
+    - b站up:
+        - 加拿大JasmineStudio:
+            - 提高低端显卡出土速度
+            - 学习stable diffusion模型
+            - 如何使用lora
+            - 好用的AI工具:
+                - https://www.bilibili.com/video/BV1wL411R7TF/?spm_id_from=333.788&vd_source=9c2ec001f0611ac68de268209e5f4441
+                - 一键擦除
+                - 去除路人
+                - 去除水印
+                - 去除多余元素
+                - 去除背景
+                - 更换背景
+            - google colab训练模型:
+                - https://www.bilibili.com/video/BV1wL411R7TF/?spm_id_from=333.788&vd_source=9c2ec001f0611ac68de268209e5f4441
+            - 生成真人玄幻
+            - 图像增强小技巧:
+                - 图片放大清晰
+                - 修复老旧招聘
+            - 免费生成虚拟主播:
+
+                - 免费文字转语言
+                - 照片转动态语言
+            - 一键生成AI视频
+            - 照片开口说话
+
+        - Nenly同学:
+            - lora LowRankAdaptation 固定人物特征
+            - 介绍 模型 提示词 参数
+            - VAE 调色滤镜
+            - Hypernetwork 超网络
+            - Embeddings 嵌入 优化画风
+            - Hugging face
+            - 常用模型介绍：2次元 3D 2.5D
+            - 提高AI分辨率:
+                  - 高清修复
+                  - 优化细节
+                  - 无损放大
+            - 学会画手
+            - 学会三视图
+            - 定向修手修脸 局部重绘inPainting
+            - 提示词补全翻译反推
+            - 一键换衣
+            - 10个二次元模型:
+                - AbyssOrangeMix2: 人物场景均衡 发散性 vae
+                - Counterfert: 厚涂插画 真实场景比较优秀 负面词嵌入
+                - ReVAnimated
+                - P
+
+
+
+            -
+    - 雪之下模型:
+          - https://civitai.com/models/10031/yukinoshita-yukino
+
+    - 通过stable diffusion任意换皮:
+        - https://www.bilibili.com/video/BV1NV4y1k7qi/?spm_id_from=333.337.search-card.all.click&vd_source=9c2ec001f0611ac68de268209e5f4441
+
+    - 训练模型
+    - 融合模型
+
+Lora:
+    - 下载Lora
+    - 将Lora放入stable diffusion中
+
+文生图:
+    - 提示词 模型 参数
+    - 复制粘贴
+    -
+图生图:
+
+
+  - 局部重绘:
+      - https://www.bilibili.com/video/BV1Xa4y1N7zb/?spm_id_from=333.337.search-card.all.click&vd_source=9c2ec001f0611ac68de268209e5f4441
+      - 三个子选项卡 局部重绘 手涂蒙版 上传蒙版
+      - 给少女换装:
+          - 文生图送入图生图或上传AI图
+          - 调整画笔
+          - 修改部分提示词
+
+      - 蒙版内容
+      - 去噪强度 ~0.75
+      - fill
+      - original
+      - latent noise
+      - latent zero
+      - 蒙版模糊: 改变蒙版边缘范围~4 分辨率大或fill可以提高
+      - 重绘区域:
+          - 全图
+          - 只在蒙版 调大蒙版~20
+          - only masked padding 填充
+      - 修改图片大小:
+          - 仅蒙版区域
+
+      - 手部重绘
+      - CFG: 提示词影响程度
+      - 插件: Dynamic thresholding
+      -
+
+

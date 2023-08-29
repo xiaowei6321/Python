@@ -1,0 +1,13 @@
+应该正确但是运行报错:
+  - #txt2img_batch_count
+    #driver.execute(' t2ibc=sr.querySelector("#txt2img_batch_count")')
+    #t2ibc=driver.execute_script('return arguments[0].querySelector("#txt2img_batch_count")',sr)
+    #t2ibc=driver.execute_script('document.querySelector("gradio-app").shadowRoot.querySelector("#txt2img_batch_count")')
+  # 获取 t2ibc下的input标签
+  #input=driver.execute_script('document.querySelector("gradio-app").shadowRoot.querySelector("#txt2img_batch_count").shadowRoot.querySelector("input")')
+  - # 定位到 Shadow DOM 的 host 元素
+    # shadow_host = driver.find_element_by_css_selector('gradio-app')
+    # shadow_host_html = driver.execute_script('return arguments[0].innerHTML', shadow_host)
+    #print(shadow_host_html)
+  #driver.execute_script('sh=document.querySelector("gradio-app")')
+  #sh=driver.execute_script('return document.querySelector("gradio-app")')

@@ -1,0 +1,30 @@
+文字转语音:
+  - Azure 文字转语言（Text-to-Speech，TTS）是 Microsoft Azure 提供的一项服务，它将文本信息转换为自然 sounding 语音。这项技术应用于各种场景，如智能音箱、无障碍技术、虚拟助手等。Azure 文字转语言服务具有以下特点：
+
+    多语言支持：Azure 文字转语言支持多种语言和方言，满足全球用户的需求。
+
+    自然 sounding 语音：通过深度学习技术，Azure 文字转语言生成自然 sounding 的语音，使得听众在听到语音时感觉像在与真人交流。
+
+    定制语音：Azure 文字转语言允许开发者创建定制的语音模型，以满足特定场景和品牌需求。
+
+    简单集成：Azure 文字转语言提供了易于使用的 API，开发者可以轻松地将其集成到应用程序、网站和其他服务中。
+
+    要使用 Azure 文字转语言服务，您需要：
+
+    注册一个 Microsoft Azure 账户。
+    创建一个新的“语音服务”资源。
+    获取订阅密钥（subscription key）和终结点（endpoint）。
+    使用 Azure 文字转语言 API 将文本转换为语音。
+    您可以在 Microsoft Azure 官方文档中找到有关如何使用 Azure 文字转语言服务的详细信息和示例：
+    https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/index-text-to-speech
+
+  - 文档:
+      - 先决条件:
+          - 一个 Azure 帐户。 如果你没有帐户，可以注册一个试用帐户。
+          - 一个语音服务资源。 如果你没有资源，可以创建一个试用资源。
+          - 一个订阅密钥。 如果你没有密钥，可以使用试用密钥。
+          - 一个终结点。 如果你没有终结点，可以使用试用终结点。
+      - 设置环境
+      - 同步语音输出
+      - remarks 评论
+      -
